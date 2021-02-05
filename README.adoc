@@ -1,0 +1,5 @@
+# Artifact Promoter
+
+Utility to promote Builds from an Artifactory Repository to Sonatype Nexus using the Nexus Staging API.
+
+The utility downloads a build including its artifacts and checksum files, verifies the checksums, signs the artifacts using PGP and stages the result on a Nexus server ready to be promoted into a release repository such as Maven Central.
